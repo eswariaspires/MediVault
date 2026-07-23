@@ -1,16 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-function Home() {
-  return <h1 style={{ fontSize: '40px' }}>🏠 Home</h1>;
-}
-
-function Login() {
-  return <h1 style={{ fontSize: '40px' }}>🔐 Login</h1>;
-}
-
-function Dashboard() {
-  return <h1 style={{ fontSize: '40px' }}>📊 Dashboard</h1>;
-}
+import Home from '../pages/user/Home';
+import Login from '../pages/auth/Login';
+import Dashboard from '../pages/admin/Dashboard';
 
 function AppRouter() {
   return (
